@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'GSG task2.dart';
 import 'Songs list.dart';
 import 'song screen.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple,primary: Colors.lightBlue[300]),
         useMaterial3: true,
       ),
-      home: SongsList(),
+      home: Task2(),
     );
   }
 }
